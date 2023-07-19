@@ -18,7 +18,7 @@ fun main() {
 
     println(result)
 
-    // 코틀린 버전의 null 체킹
+    // 코틀린 버전의 null 체킹(Elvis Operation)
     nickname = null;
     var result2 = nickname?: "값이 없음"
 
