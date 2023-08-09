@@ -5,8 +5,9 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import coil.load
-import com.example.myapplication.common.ImageProvider
+import com.example.myapplication.mvc.provider.ImageProvider
 import com.example.myapplication.databinding.ActivityMvcBinding
+import com.example.myapplication.mvc.model.ImageCountModel
 
 class MvcActivity : AppCompatActivity(), ImageProvider.Callback {
     private lateinit var binding: ActivityMvcBinding

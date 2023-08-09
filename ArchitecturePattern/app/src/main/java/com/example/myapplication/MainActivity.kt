@@ -3,7 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.graphics.rotationMatrix
+import com.example.myapplication.mvp.MvpActivity
 import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.mvc.MvcActivity
 
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openMvp() {
-
+        startActivity(Intent(this, MvpActivity::class.java))
     }
 
     fun openMvvm() {
